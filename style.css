@@ -11,6 +11,21 @@ header h1 {
     letter-spacing: clamp(4px, 1vw, 10px);
 }
 
+header a:link {
+    color: black;
+    text-decoration: none;
+}
+
+header a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #6667AB;
+    text-decoration: underline;
+}
+
 nav {
     font-size: clamp(8px, 1.5vw, 20px);
     text-align: center;
@@ -37,6 +52,25 @@ section {
     margin-right: auto;
     width: 80%;
     max-width: 1536px;
+}
+
+section h2 a:link {
+    color: #6667AB;
+    text-decoration: none;
+}
+
+section h2 a:visited {
+    color: #6667AB;
+    text-decoration: none;
+}
+
+section h2 a:hover {
+    color: #6667AB;
+    text-decoration: underline;
+}
+
+section img {
+    max-width: 100%;
 }
 
 section h2 {
